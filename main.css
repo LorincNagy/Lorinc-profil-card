@@ -38,13 +38,11 @@ body {
 #first-column {
   height: 100%;
   width: 37%;
-  background-color:beige 
 }
 
 #first-medium-rectangle {
   height: 48.5%;
   width: 100%;
-  background-color: antiquewhite
 }
 
 #second-divider {
@@ -55,10 +53,10 @@ body {
 #second-medium-rectangle {
   height: 48.5%;
   width: 100%;
-  background-color: antiquewhite
+  text-align: center;
 }
 
- img {
+ .relax {
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -67,16 +65,32 @@ body {
     background-color: #666;
   }
 
-.profile-image {
-  
+.quote {
+  padding: 8%;
+  font-size: 20px;
 }
 
- .head, .about {
-    margin-bottom:
+.afraid {
+  padding-bottom: 8%;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.Me {
+  height: auto;
+  width: 100%;
+  }
+
+.profile-image {
+  margin-top: -80px;
+}
+
+.head {
+    padding: 5%;
   }
   
-  .content {
-    padding: 
+.content {
+    padding: 5%;
     border-top: 1px solid hsla(0, 0%, 30%, .8);
   }
 
@@ -86,12 +100,12 @@ body {
   }
 
  .head {
-    text-align: center;
-    margin-bottom: 
+    text-align: center; 
   }
   
   .links {
     text-align: center;
+    padding: 5%;
   }
 
 .right {
@@ -115,6 +129,7 @@ img:hover {
   
   h2 {
     color: #2e2e1f;
+    font-size: 15px;
   }
   
   span {
@@ -124,17 +139,13 @@ img:hover {
   p {
     color: hsla(60, 22%, 10%,.9)
   }
+
+.column {
+  color: aqua;
+}
   
   body {
     font-family: 'Festive', cursive;
-  }
-  
-  h1,h2,span {
-    padding: 
-  }
-  
-  .head {
-    margin-bottom: 
   }
   
   .social-icon {
@@ -166,6 +177,6 @@ ul {
   list-style-type: none;
 }
 
-li {
+.inline {
   display: inline;
 }
