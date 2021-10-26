@@ -4,36 +4,61 @@
     box-sizing: border-box;
     font-size: 100%;
     }
-  
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
+
+body {
+  height: auto;
+  width: 100%;
+  margin: 10% auto;
+}
+
+body {
+    background: url('assets/sunset.jpg') no-repeat center center fixed;
+    background-size: cover;
   }
-  
-  .profile-card {
-    background-color: hsla(60, 100%, 50%, .4);
-    width: 480px;
-    max-width: calc(100vw - 10px);
-  }
-  
-  .head {
-    text-align: center;
-  }
-  
-  .links {
-    text-align: center;
-  }
-  
-  .head, .content {
-    width: 90%;
-    margin: 0 auto;
-  }
-  
-  img {
+
+.main {
+  height: 700px;
+  width: 700px;
+  margin: 0 auto;
+  box-shadow: 15px 15px 10px gray;
+}
+
+.profile-card {
+  height: 100%;
+  width: 60%;
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+#first-divider {
+  height: 100%;
+  width: 3%;
+}
+
+#first-column {
+  height: 100%;
+  width: 37%;
+  background-color:beige 
+}
+
+#first-medium-rectangle {
+  height: 48.5%;
+  width: 100%;
+  background-color: antiquewhite
+}
+
+#second-divider {
+  height: 3%;
+  width: 100%;
+}
+
+#second-medium-rectangle {
+  height: 48.5%;
+  width: 100%;
+  background-color: antiquewhite
+}
+
+ img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -41,43 +66,43 @@
     padding: 1px;
     background-color: #666;
   }
+
+.profile-image {
   
-  .profile-image {
-    margin-top: -60px;
-  }
-  
-  ul {
-    list-style-type: none;
-  }
-  
-  li {
-    display: inline;
-  }
-  
-  .head, .about {
-    margin-bottom: 10%;
+}
+
+ .head, .about {
+    margin-bottom:
   }
   
   .content {
-    padding: 5% 10%;
-  }
-  
-  body {
-    background: url('assets/sunset.jpg') no-repeat center center fixed;
-    background-size: cover;
-  }
-  
-  .profile-card {
-    background-color: hsla(0, 0%, 100%, .5);
-    border-radius: 4px;
-    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
-  }
-  
-  .content {
+    padding: 
     border-top: 1px solid hsla(0, 0%, 30%, .8);
   }
+
+.head, .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+ .head {
+    text-align: center;
+    margin-bottom: 
+  }
   
-  img:hover {
+  .links {
+    text-align: center;
+  }
+
+.right {
+  float: right;
+}
+
+.black {
+   background-color: black;
+}
+
+img:hover {
     transform: scale(1.1);
     transition: all 0.5s ease-in-out;
     filter: grayscale(20%);
@@ -105,11 +130,11 @@
   }
   
   h1,h2,span {
-    padding: 3px;
+    padding: 
   }
   
   .head {
-    margin-bottom: 20px;
+    margin-bottom: 
   }
   
   .social-icon {
@@ -136,4 +161,11 @@
     transition: all 1.5s ease-in-out;
     font-size: 20px;
   }
-  
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
